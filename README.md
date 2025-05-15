@@ -35,6 +35,7 @@ source env/bin/activate  # On Linux/Mac
 Install the required packages:
 
 pip install streamlit yfinance requests scikit-learn cachetools vaderSentiment
+
 ---
 ## Usage
 Update the API Key:
@@ -49,6 +50,7 @@ Enter a stock ticker:
 US Stocks: AAPL, MSFT, etc.
 
 Indian Stocks: RELIANCE.NS, TCS.NS, etc.
+
 ---
 ## Technologies Used
 
@@ -65,6 +67,7 @@ Scikit-learn: Machine Learning
 VADER Sentiment Analysis: Text Sentiment Analysis
 
 Cachetools: Caching API responses
+
 ---
 ## License
 This project is licensed under the MIT License.
