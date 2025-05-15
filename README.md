@@ -1,7 +1,7 @@
 # Stock_price_prediction
 AI-based stock price prediction using sentiment analysis
 ## Description  
-This project predicts stock price movements using AI techniques by combining historical financial data and sentiment analysis from news headlines.  
+This project predicts stock price movements using AI techniques by combining historical financial data and sentiment analysis from news headlines.  ":
 It uses **Random Forest Classifier** for prediction and **VADER** for sentiment analysis, providing insights into whether a stock's price will go **Up** or **Down**.  
 
 ---
@@ -19,12 +19,21 @@ It uses **Random Forest Classifier** for prediction and **VADER** for sentiment 
 
 1. **Clone the repository:**  
    git clone https://github.com/Siddharth-mishra-123/Stock_price_prediction.git
+   
+   
    cd Stock_price_prediction
-   Set up a virtual environment (optional but recommended):
+   
+   
+   Set up a virtual environment (optional):
+
 python -m venv env
+
 env\Scripts\activate  # On Windows
+
 source env/bin/activate  # On Linux/Mac
+
 Install the required packages:
+
 pip install streamlit yfinance requests scikit-learn cachetools vaderSentiment
 ---
 ## Usage
@@ -38,15 +47,23 @@ streamlit run stock_price_prediction.py
 Enter a stock ticker:
 
 US Stocks: AAPL, MSFT, etc.
+
 Indian Stocks: RELIANCE.NS, TCS.NS, etc.
 ---
 ## Technologies Used
+
 Python: Programming Language
+
 Streamlit: Web Framework
+
 Yahoo Finance API: Stock Data
+
 NewsAPI: News Headlines
+
 Scikit-learn: Machine Learning
+
 VADER Sentiment Analysis: Text Sentiment Analysis
+
 Cachetools: Caching API responses
 ---
 ## License
